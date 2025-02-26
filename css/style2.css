@@ -1,0 +1,33 @@
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+body{font-family: 'Nanum Gothic'; font-size:14px; color:#333;}
+*{margin: 0; padding: 0;} a{text-decoration: none; color:inherit;} li{list-style:none;}
+img{vertical-align: top;}
+.blind{position: absolute; left: -999px;}
+.wrap{margin: 0 auto; width: 1100px; position: relative;}
+ul:after, .wrap:after, .top:after  {content:""; clear: both; display: block;}
+
+header{ height: 134px;}
+header h1{text-align: center; padding-top: 40px;}
+header .gnb li{float: left; margin-right: 36px; padding-bottom: 20px; }
+header .gnb{ font-size:15px; font-weight: bold; height: 50px; display:flex; justify-content: center; align-items: center; height: 60px;}
+header .gnb li a:active, header .gnb li a:hover, header .gnb li a:focus{color:#c93;}
+
+#main {background:url(../images/mainimg.jpg); height: 562px;}
+#main li{position: absolute; right: 170px; top: 60px;}
+#main li:nth-child(2){position: absolute; top: 200px;}
+#main li:last-child{position: absolute; top: 462px; right: 247px;}
+
+#cont { padding: 100px 0 70px;}
+#cont p{line-height: 1.6; margin-top: 20px;}
+
+#cont .top div { float: left; width: 250px; margin-right: 25px; padding-top: 24px; border-top: 2px solid;}
+#cont .top div:last-child{margin-right: 0; width:550px; }
+#cont .top div h2 {margin-top: 30px; font-size:16px;}
+#cont .top div article{position: absolute; right: 0; top: 24px; width: 225px;}
+#cont .top div article h2{margin-top: 20px; }
+#cont .top div article h2::before{content:""; width: 60px; height: 6px; display: block;}
+#cont .top div span{}
+
+#cont .bot {padding-top: 24px; margin-top: 90px; border-top: 2px solid;}
+#cont .bot article a { background: #cfc;  width: 250px; float: left; right: 20px;}
+#cont .bot article{position: absolute; left: 0; bottom: 0;}
